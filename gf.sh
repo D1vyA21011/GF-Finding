@@ -58,25 +58,25 @@ read scan
 case $scan in
 
  1) echo "finding xss"
-     dalfox file $domain/params/params.txt -b divya22.xss.ht -o $domain/params/dalfox-xss.txt
+     dalfox file $domain/params/params.txt -b Devu123 -o $domain/params/dalfox-xss.txt
    ;;
  2) echo "finding sqli"
-    dalfox file $domain/params/params.txt -b divya22.xss.ht -o $domain/params/dalfox-sqli.txt
+    dalfox file $domain/params/params.txt -b Devu123 -o $domain/params/dalfox-sqli.txt
    ;;
  3) echo "finding ssrf"
-    dalfox file $domain/params/params.txt -b divya22.xss.ht -o $domain/params/dalfox-ssrf.txt
+    dalfox file $domain/params/params.txt -b Devu123 -o $domain/params/dalfox-ssrf.txt
     ;;
  4) echo "finding idor"
-     dalfox file $domain/params/params.txt -b divya22.xss.ht -o $domain/params/dalfox-idor.txt     
+     dalfox file $domain/params/params.txt -b Devu123 -o $domain/params/dalfox-idor.txt     
     ;;
  5) echo "finding redirection"
-    dalfox file $domain/params/params.txt -b divya22.xss.ht -o $domain/params/dalfox-redirection.txt 
+    dalfox file $domain/params/params.txt -b Devu123 -o $domain/params/dalfox-redirection.txt 
     ;;
   6) echo "finding lfi"
-     dalfox file $domain/params/params.txt -b divya22.xss.ht -o $domain/params/dalfox-lfi.txt
+     dalfox file $domain/params/params.txt -b Devu123 -o $domain/params/dalfox-lfi.txt
      ;;
   7) echo "finding rfi"
-     dalfox file $domain/params/params.txt -b divya22.xss.ht -o $domain/params/dalfox-rfi.txt 
+     dalfox file $domain/params/params.txt -b Devu123 -o $domain/params/dalfox-rfi.txt 
      ;;
 
 esac
